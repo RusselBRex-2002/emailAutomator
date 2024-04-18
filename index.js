@@ -3,7 +3,7 @@ const xlsx = require('xlsx');
 const nodemailer = require('nodemailer');
 
 const workbook = xlsx.readFile('data.xlsx');
-const worksheet = workbook.Sheets['Sheet1'];
+const worksheet = workbook.Sheets['Export'];
 
 const f = 'F';
 const s = 'S';
